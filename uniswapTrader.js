@@ -10,7 +10,7 @@ const INFURA_URL_TESTNET = process.env.INFURA_URL_TESTNET
 const WALLET_ADDRESS = process.env.WALLET_ADDRESS
 const WALLET_SECRET = process.env.WALLET_SECRET
 
-const provider = new ethers.JsonRpcProvider('https://polygon-mainnet.g.alchemy.com/v2/V5T55x5KhnbDBlRE-Ni6Aeyoh34AYIl5');
+const provider = new ethers.JsonRpcProvider('###############################################');
 const poolAddress = "0x2145359f475f30FE7c03ADf2f32586EB4c806cBe" // UNI/WETH
 const swapRouterAddress = '0xE592427A0AEce92De3Edee1F18E0157C05861564'
 
