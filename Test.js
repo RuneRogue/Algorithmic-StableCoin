@@ -279,10 +279,10 @@ const oracleAddress = "0x572BEB57EAB1aD11cBE4C79f5Fd0C8569Ab73086";
 const contractAddress = "0xA3C8FfEC8130341178dcc3Fd501099451b62fFB4"; // Your contract address
 
 // Replace with your Ethereum node URL
-const provider = new ethers.JsonRpcProvider('https://polygon-mainnet.g.alchemy.com/v2/V5T55x5KhnbDBlRE-Ni6Aeyoh34AYIl5');
+const provider = new ethers.JsonRpcProvider('###################################################');
 
 // Replace with your private key or use other wallet providers
-const privateKey = '127676b648f696051c0d4d77cdcb1a0bace3fb9fbbcd5e46e42076e64d1b0f12'; // Your private key
+const privateKey = '################################################'; // Your private key
 const wallet = new ethers.Wallet(privateKey, provider);
 
 // Replace with your contract instance
